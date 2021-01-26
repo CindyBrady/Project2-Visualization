@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/") 
-def home_view(): 
-        return "<h1>Welcome to The Great Outdoors!</h1>"
+@app.route('/')
+def index():
+    return render_template('index.html')
