@@ -6,7 +6,7 @@ Our group chose to use mock data from a store, The Great Outdoors. The dataset c
 
 # Leaflet
 ## We plan to use leaflet to build a geomap where we will place markers on store locations and display store sales data. 
-![digital_map](Heroku_Deployment/Images/digital_map.jpg)
+![digital_map](Heroku_Deployment/Images/digital_map.JPG)
 
 # D3 Visualization
 ## We will use D3 to visualize sales data with a line graph.
