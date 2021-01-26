@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Great Outdoors Sales Data Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .wrapper {
+  width: 250px;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: .3;
+}
+</style>  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Navigation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Store_Sales.html">Store Sales (Map)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">D3 Visualization</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="Dashboard.html">Dashboard (Google Data Studio)</a>
+          </div>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-6">The Great Outdoors Sales Data Analysis</h1>
+      <div>
+        <img src="Heroku_Deployment/Images/mountain.jpg" class="mx-auto d-block shadow p-3 mb-5 bg-white rounded" style="max-width: 100%;" alt="Hero Image">
+      </div>
+      <p class="lead"></p>
+      <hr class="my-4" style="max-width: 100%;">
+      <h2 class="display-5">About</h2>
+      <p>Our group chose to use mock data from a store, The Great Outdoors. The dataset contains store information, product information, recent orders, store location, and sales and revenue prices. We will store this data in a SQL-Lite database and utilize the database to create a flask app.  
+      <br><br>
+      We plan to use leaflet to build a geomap where we will place markers on store locations and display store sales data. We will use D3 to visualize sales data with a line graph. Dashboarding will be done in Google Data Studio or Power BI. 
+      <br><br>
+      Our project will have a home page and about page with a short description of our project, an introduction to our project group members, and an intro to our project pages. We plan to include three visualizations, which will result in a total of four pages. The page will have a navigation bar for page interaction. The first link will be a map with pins (markers) demonstrating store locations and each marker will include a custom tooltip with data pertaining to that particular store’ssales. The second page will be a D3 visualization, revenue vs time line graph, or a revenue vs store (to visualize how each store is doing) or revenue vs quantity (to see how each product is selling overall). The third page will be a dashboard that we will deploy using iFrame.. The dashboard will include visualizations pertaining to sales data, month-to-month and YOY, total revenue (by location),  product insights (which products do well in certain regions), and store insights (which stores are doing well and which are falling behind).</p>
+  
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+  <div class="card-group">
+    <div class="card rounded">
+      <h3 class="card-title mx-auto d-block"><strong>Store Sales</strong></h3>
+      <p class="card-text mx-auto d-block">Insert Headline Here</p>
+      <img class="img-fluid" src="Heroku_Deployment/Images/digital_map.jpg" style="max-width: 100%; height: 196px;" alt="sales icon image">
+      
+      <div class="card-body">
+        
+        <a href=""><button type="button" class="btn btn-primary">Click here</button></a>
+      </div>
+    </div>
+    <div class="card rounded">
+      <h3 class="card-title mx-auto d-block"><strong>D3 Visualization</strong></h3>
+      <p class="card-text mx-auto d-block">Insert Headline Here</p>
+      <img class="card-img-top" src="Heroku_Deployment/Images/stock-market-graph-trading-chart-for-business-and-finance-free-vector.jpg" style="max-width: 100%;" alt="D3 icon image">
+      <div class="card-body">
+              <a href=""><button type="button" class="btn btn-primary">Click here</button></a>
+      </div>
+    </div>
+    <div class="card rounded">
+      <h3 class="card-title mx-auto d-block"><strong>Dashboard</strong></h3>
+      <p class="card-text mx-auto d-block">Insert Headline Here</p>
+      <img class="card-img-top" src="Heroku_Deployment/Images/110623868-virtual-screen-business-intelligence-dashboard-analytics-and-big-data-technology-concept-.jpg" style="max-width: 100%;" alt="Dashboard Image">
+      <div class="card-body">
+                <a href="dashboard.html"><button type="button" class="btn btn-primary">Click here</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              <strong>Great Outdoors Team/Contributions</strong>
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-deck">
+              <div class="card">
+                  <div class="card-body">
+                  <h5 class="card-title"><strong>Matthew Ashe</strong></h5>
+                  <p class="card-text"><i>Leaflet (geomap)</i></p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                  <h5 class="card-title"><strong>Cindy Brady</strong></h5>
+                  <p class="card-text"><i>Heroku &amp; Website</i></p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                  <h5 class="card-title"><strong>Brittany Chin</strong></h5>
+                  <p class="card-text"><i>D3 Visualization</i></p>
+                  </div>
+                </div>
+                </div>
+                <div class="card-footer">
+                              
+                                
+                              
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title"><strong>Conner Mixon</strong></h5>
+                        <p class="card-text"><i>Google Data Studio &amp; SQLLite</i></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title"><strong>Robert Norris</strong></h5>
+                        <p class="card-text"><i>Leaflet (geomap) &amp; Heroku</i></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title"><strong>Chris Williams</strong></h5>
+                        <p class="card-text"><i>D3 Visualization</i></p>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="card-footer">
+                              
+                                
+                              
+                      </div>
+                      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-deck">
+                          <div class="card">
+                              <div class="card-body bg-secondary">
+                                <img src="Heroku_Deployment/Images/81084d04dbcadec0b75a7d494b253d7d.gif" style="height: 130px;" class="img-fluid" alt="Responsive image">
+                              
+                              </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title"><strong>Allen Broce</strong></h5>
+                            <p class="card-text"><i>HTML/CSS &amp; Flask App</i></p>
+                            </div>
+                        </div>
+                          <div class="card">
+                            <div class="card-body bg-secondary">
+                              <img src="Heroku_Deployment/Images/images/tumblr_oxmcuaNizF1qa763mo1_500.gif" style="height: 130px;" class="img-fluid" alt="Responsive image">
+                              
+                              </div>
+                            </div>
+                            </div>
+                            <div class="card-footer">
+                              
+                                
+                              
+                            </div>
+                            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
