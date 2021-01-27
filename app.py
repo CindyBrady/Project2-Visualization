@@ -8,6 +8,10 @@ def home():
 def dashboard():
     return render_template('dashboard.html')
 
+    @app.route('/map/')
+def map():
+    return render_template('map.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
