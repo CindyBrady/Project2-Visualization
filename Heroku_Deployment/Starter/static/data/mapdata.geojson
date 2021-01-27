@@ -1,0 +1,135 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.5237,25.2851 ]
+    },
+    "properties": {
+    "Store Name":"Al Diwan Street",
+    "Country":"Qatar",
+    "City":"Doha",
+    "Revenue":8635144.03
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.491142,29.424349 ]
+    },
+    "properties": {
+    "Store Name":"Alamo Square",
+    "Country":"USA",
+    "City":"San Antonio",
+    "Revenue":8683896.28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.3499986,50.8499966 ]
+    },
+    "properties": {
+    "Store Name":"Avenue de la Foresterie",
+    "Country":"Belgium",
+    "City":"Brussels",
+    "Revenue":8795038.86
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 36.81667,-1.28333 ]
+    },
+    "properties": {
+    "Store Name":"Harambee Ave",
+    "Country":"Kenya",
+    "City":"Nairobi",
+    "Revenue":8654494.31
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.82766,19.136326 ]
+    },
+    "properties": {
+    "Store Name":"JP Road",
+    "Country":"India",
+    "City":"Mumbai",
+    "Revenue":8656846.25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -21.92298297,64.1405161 ]
+    },
+    "properties": {
+    "Store Name":"Laugavegur",
+    "Country":"Iceland",
+    "City":"Reykjavík",
+    "Revenue":8515769.94
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.851959,1.29027 ]
+    },
+    "properties": {
+    "Store Name":"Mandai Ave",
+    "Country":"Singapore",
+    "City":"Singapore",
+    "Revenue":8694757.22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 115.857048,-31.953512 ]
+    },
+    "properties": {
+    "Store Name":"St Georges Terrace",
+    "Country":"Australia",
+    "City":"Perth",
+    "Revenue":8667246.55
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.62725,-33.03932 ]
+    },
+    "properties": {
+    "Store Name":"Sta Maria",
+    "Country":"Chile",
+    "City":"Valparaiso",
+    "Revenue":8693916.34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.116226,49.246292 ]
+    },
+    "properties": {
+    "Store Name":"W Georgia Street",
+    "Country":"Canada",
+    "City":"Vancouver",
+    "Revenue":8649176.92
+    }
+  }
+]
+}
