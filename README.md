@@ -1,6 +1,6 @@
 # Project2-Visualization
 
-![mountain](Heroku_Deployment/Images/hiking_banner_wfhfft.png)
+![mountain](Heroku_Deployment/Images/mountain.jpg)
 
 Our group chose to use mock data from a store, The Great Outdoors. The dataset contains store information, product information, recent orders, store location, and sales and revenue prices. We will store this data in a SQL-Lite database and utilize the database to create a flask app.
 
