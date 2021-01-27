@@ -1,7 +1,15 @@
-from flask import Flask 
+from flask import Flask
+from flask import render_template
+​
+ app = Flask(__name__, template_folder='.')
+​
+@app.route('/')
+def home():
+    return render_template('index.html')
+​
+if __name__ == '__main__':
+   app.run()
+
+
+
   
-app = Flask(__name__) 
-  
-@app.route("/") 
-def home_view(): 
-        return "<h1>Welcome to The Great Outdoors!</h1>"
