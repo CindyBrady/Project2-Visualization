@@ -1,0 +1,48 @@
+body {
+    background-color:#FFFFFF;
+  }
+  
+  .chart::before {
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    z-index: -1;
+    display: block;
+    width: 1200px;
+    height: 700px;
+    content: " ";
+    background-image: url("../Heroku_Deployment/Images/Outdoors.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    opacity: 0.3;
+  }
+  
+  .tooltip {
+    position: absolute;
+    width: 135px;
+    height: 60px;
+    padding: 2px;
+    padding-top: 8px;
+    font: 12px arial;
+    color: #FFFFFF;
+    text-align: center;
+    background:#3F3F3F;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .axis-text {
+    font-family: impact;
+    font: 16px impact;
+    font-weight: normal;
+    fill: #3F3F3F; 
+    text-anchor: middle;
+  }
+  
+  .yAxis-text {
+    font-size: 14px;
+    font-family: Impact
+    fill: #707070;
+  
+    }
