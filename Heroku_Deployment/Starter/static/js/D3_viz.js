@@ -66,7 +66,7 @@ function makeResponsive() {
       .text("Month");
   
     // Read CSV
-    d3.csv("../data/TGOD.csv").then(function(salesData) {
+    d3.csv("../Heroku_Deployment/Starter/static/data/TGOD.csv").then(function(salesData) {
   
       // create date parser
       var dateParser = d3.timeParse("%b");
